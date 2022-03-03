@@ -5,7 +5,7 @@ using UnityEngine;
 public class MasterColor : MonoBehaviour
 {
     public Material[] colors;
-    private int[] _randomSolution ;
+    private int[] _randomSolution = new int[4] ;
     // Start is called before the first frame update
     void Start()
     {
