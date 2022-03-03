@@ -397,16 +397,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 524369377}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8ebd077625440b42b29ecdc42afb89a, type: 3}
+  m_Script: {fileID: 11500000, guid: dcda5b24f73ec094a926474bd7c27bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  guessManager: {fileID: 0}
-  masterManager: {fileID: 0}
   colors:
-  - {fileID: 2100000, guid: 9407d2f101b694b4eb15f171c33c88a1, type: 2}
-  - {fileID: 2100000, guid: 81bd19796ee53c94f850354668b63f9a, type: 2}
-  - {fileID: 2100000, guid: f3227955a1cc23b4cb1d230ec3b0b9d5, type: 2}
-  - {fileID: 2100000, guid: 0e5911e654113124d9572a210b1de523, type: 2}
+  - {fileID: 3720621358470868598, guid: 0ab58038854f31146bb8848bcb02fb9a, type: 3}
+  - {fileID: 937924034549256527, guid: f66e3f971f81f6942ae398759f02d034, type: 3}
+  - {fileID: 5287625474257160892, guid: dc5be41d22f759f4ebdcfe712dbd488a, type: 3}
+  - {fileID: 3049347684226120926, guid: 9cb53129a4dc90a48a6975902658e3a6, type: 3}
+  guessManager: {fileID: 0}
+  interManager: {fileID: 0}
 --- !u!4 &524369379
 Transform:
   m_ObjectHideFlags: 0
@@ -414,7 +414,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524369377}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

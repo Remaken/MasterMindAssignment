@@ -47,17 +47,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f1edcaa2c7924d43a47244bb040986c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  guessManager: {fileID: 0}
-  interManager: {fileID: 0}
   masterColorManager: {fileID: 0}
   interfaceManager: {fileID: 0}
-  Rows:
+  rows:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  ColorPlacement: {fileID: 0}
+  colorPlacement: {fileID: 0}
 --- !u!1001 &3269071443287557974
 PrefabInstance:
   m_ObjectHideFlags: 0

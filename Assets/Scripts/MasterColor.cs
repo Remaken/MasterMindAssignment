@@ -7,24 +7,25 @@ public class MasterColor : MonoBehaviour
     public GameObject[] colors;
     public GuessColor guessManager;
     public InterfaceManager interManager;
-    private int[] _randomSolution = new int[4] ;
+    private GameObject[] _randomSolution = new GameObject[4] ;
     // Start is called before the first frame update
     void Start()
     {
         ColorChoosing();
+        print(_randomSolution[0] + " " + _randomSolution[1] + " " +_randomSolution[2] + " " +_randomSolution[3] );
     }
 
     // Update is called once per frame
     void Update()
-    {
-        print(_randomSolution.Length);
+    {  
+     
     }
 
     private void ColorChoosing()
     {
         for (int i = 0; i < _randomSolution.Length; i++)
         {
-            i = colors[Random.Range(0,colors.Length)];
+            _randomSolution[i] = colors[Random.Range(0, colors.Length)];
         }
     }
     //TODO: On click middle click reset Color

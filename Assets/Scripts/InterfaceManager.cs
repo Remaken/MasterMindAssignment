@@ -15,7 +15,7 @@ public class InterfaceManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+     
     }
     //TODO: Bouton valider choix -> vérification
     //TODO: RESET
