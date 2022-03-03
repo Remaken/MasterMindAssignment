@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InterfaceManager : MonoBehaviour
 {
+    public GuessColor guessManager;
+    public MasterColor masterManager;
     // Start is called before the first frame update
     void Start()
     {

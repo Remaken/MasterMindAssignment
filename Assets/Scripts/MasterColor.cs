@@ -4,25 +4,27 @@ using UnityEngine;
 
 public class MasterColor : MonoBehaviour
 {
-    public Material[] colors;
+    public GameObject[] colors;
+    public GuessColor guessManager;
+    public InterfaceManager interManager;
     private int[] _randomSolution = new int[4] ;
     // Start is called before the first frame update
     void Start()
     {
-        
+        ColorChoosing();
     }
 
     // Update is called once per frame
     void Update()
     {
-        print(_randomSolution);
+        print(_randomSolution.Length);
     }
 
     private void ColorChoosing()
     {
         for (int i = 0; i < _randomSolution.Length; i++)
         {
-            //TODO: RandomRange choose color and replace material Random.Range(colors.Length);
+            i = colors[Random.Range(0,colors.Length)];
         }
     }
     //TODO: On click middle click reset Color

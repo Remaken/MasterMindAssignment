@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class GuessColor : MasterColor
+public class GuessColor : MonoBehaviour
 
 {
     public MasterColor masterColorManager;
-    public GameObject[] Rows;
-    public GameObject[] ColorPlacement; // à revoir
+    public InterfaceManager interfaceManager;
+    public GameObject[] rows;
+    public GameObject colorPlacement; // à revoir
     
     /* je veux que la classe guess vérifie les données du tableau que master aura randomisé
      pourquoi hériter ? pour les couleurs, pas != ni d'ajouts donc inutile 

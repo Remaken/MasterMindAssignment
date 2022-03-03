@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3084470259696933708}
+  - component: {fileID: 407493166934045009}
   m_Layer: 0
   m_Name: Line
   m_TagString: Untagged
@@ -34,6 +35,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &407493166934045009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4449827228365425778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1edcaa2c7924d43a47244bb040986c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guessManager: {fileID: 0}
+  interManager: {fileID: 0}
+  masterColorManager: {fileID: 0}
+  interfaceManager: {fileID: 0}
+  Rows:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ColorPlacement: {fileID: 0}
 --- !u!1001 &3269071443287557974
 PrefabInstance:
   m_ObjectHideFlags: 0
