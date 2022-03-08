@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 407493166934045009}
   m_Layer: 0
   m_Name: Line
-  m_TagString: Untagged
+  m_TagString: Sphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   masterColorManager: {fileID: 0}
+  lignes: []
 --- !u!1001 &1319903713785720124
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,14 +9,14 @@ public class MasterColor : MonoBehaviour
     public GuessColor guessManager;
     public InterfaceManager interManager;
     private GameObject[] _randomSolution = new GameObject[4] ;
-    // Start is called before the first frame update
+    
+    
     void Start()
     {
         ColorChoosing();
         ColorPlacing();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
     }
