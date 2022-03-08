@@ -23,12 +23,12 @@ public class GuessColor : MonoBehaviour
 
     void Update()
     { 
-         onHitColor();
+         OnHitColor();
     }
 
     // Nouvelle idée -> utiliser le Render pour aléger les tableaux - un objet avec déjà implémenté les 4 couleurs et swap entre elles
     
-    private void onHitColor()
+    private void OnHitColor()
     {
         
         RaycastHit hit;
@@ -41,17 +41,23 @@ public class GuessColor : MonoBehaviour
                 for (int i = 0; i < _couleur.Length; i++)
                 {
                     _rend.sharedMaterial = _couleur[i];
+                    print("je change couleur");
                 }
             }
         }
 
+    }
+
+    private void ResetColor()
+    {
+        // Remettre couleur en couleur de base
     }
     //TODO: COMMUNICATION BETWEEN GUESS & MASTER
     //TODO: Number of Tries
     //TODO: [] Rows  length 12  == Line
     //TODO: [] Rows - Tries length 4
     //TODO: ON click right click color change
-    
+    //TODO: On click middle click reset Color
     
     /* je veux que la classe guess vérifie les données du tableau que master aura randomisé
      pourquoi hériter ? pour les couleurs, pas != ni d'ajouts donc inutile 

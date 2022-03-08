@@ -13,9 +13,7 @@ public class MasterColor : MonoBehaviour
     void Start()
     {
         ColorChoosing();
-        print(_randomSolution[0] + " " + _randomSolution[1] + " " +_randomSolution[2] + " " +_randomSolution[3] );
         ColorPlacing();
-
     }
 
     // Update is called once per frame
@@ -37,9 +35,6 @@ public class MasterColor : MonoBehaviour
         Instantiate(_randomSolution[1],this.boulePositions[1].transform) ;
         Instantiate(_randomSolution[2],this.boulePositions[2].transform) ;
         Instantiate(_randomSolution[3],this.boulePositions[3].transform) ;
-        Destroy(boulePositions[boulePositions.Length]);
     }
-    //TODO: On click middle click reset Color
-    //TODO: [] Colors length 4(primary)
-    //TODO: [] Master Colors - Computer choosing length 4
+   
 }
