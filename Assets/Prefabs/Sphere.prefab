@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234ab53a2d2caa84182747713105f2a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterColorManager: {fileID: 0}
+  couleurActuelle: 0
+  numSphere: 4
 --- !u!33 &1624515676212325822
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class Sphere : MonoBehaviour
 {
-    public MasterColor masterColorManager;
-    public int couleurActuelle = 0;
+    public int couleurActuelle ;
+    public int numSphere;
+    [HideInInspector]
+    public int[] couleurSphereActuelle;
 
     private void Start()
     {
-        
+        couleurSphereActuelle = new int[4];
+        couleurActuelle = 0;
     }
 
 

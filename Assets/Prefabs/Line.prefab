@@ -47,8 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772ee033797498748b9feebce9b354bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterColorManager: {fileID: 0}
-  lignes: []
   boulepositions:
   - {fileID: 8339047390809102098}
   - {fileID: 5537765985495450096}
@@ -134,6 +132,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3084470259696933708}
     m_Modifications:
+    - target: {fileID: -5168201790068940850, guid: 609bd3763323fce46865d0c99ebe1f70, type: 3}
+      propertyPath: numSphere
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 307377179766545737, guid: 609bd3763323fce46865d0c99ebe1f70, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -207,6 +209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3084470259696933708}
     m_Modifications:
+    - target: {fileID: -5168201790068940850, guid: 609bd3763323fce46865d0c99ebe1f70, type: 3}
+      propertyPath: numSphere
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 307377179766545737, guid: 609bd3763323fce46865d0c99ebe1f70, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -280,6 +286,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3084470259696933708}
     m_Modifications:
+    - target: {fileID: -5168201790068940850, guid: 609bd3763323fce46865d0c99ebe1f70, type: 3}
+      propertyPath: numSphere
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 307377179766545737, guid: 609bd3763323fce46865d0c99ebe1f70, type: 3}
       propertyPath: m_RootOrder
       value: 2
